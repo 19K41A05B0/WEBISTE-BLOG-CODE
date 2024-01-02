@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px; /* Decrease the margin below the h1 element */
+}
+
+.post {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  max-width: 600px; /* Set maximum width for better readability */
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Decrease the margin below the form */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  margin-top: 10px; /* Decrease the margin above the link */
+  color: #3498db; /* Change link color */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
